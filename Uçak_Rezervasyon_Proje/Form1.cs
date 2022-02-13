@@ -31,7 +31,7 @@ namespace Uçak_Rezervasyon_Proje
         private void button2_Click(object sender, EventArgs e)
         {
             label9.Text = comboBox2.Text;
-            comboBox2.Text = comboBox1.Text;
+            comboBox2.Text = ""comboBox1.Text;
             comboBox1.Text = label9.Text;
         }
     }
